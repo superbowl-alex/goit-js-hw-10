@@ -1,3 +1,4 @@
+//API for requesting and receiving data from the server
 export function fetchCountries(name) {
   const BASE_URL = 'https://restcountries.com/v3.1';
   const SEARCH_FILTER = 'fields=name,capital,population,flags,languages';
