@@ -10,6 +10,12 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image: radial-gradient(grey 2px, white 2px);
+  background-size: 60px 60px;
+}
+
+ul {
+  list-style: none;
 }
 
 #search-box {
@@ -17,4 +23,22 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-info__name-thumb {
+  display: flex;
+  align-items: center;
+}
+
+.country-info__img {
+  margin-right: 10px;
+}
+
+.country-info__list {
+}
+
+.country-info__text {
+}
+
+.country-info__name {
 }
